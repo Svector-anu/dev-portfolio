@@ -79,4 +79,62 @@
         }
     }
 
-}z
+}
+
+.about{
+    background-color: #0a0a0a;
+
+    background-color: ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 40px 100px;
+
+    h1{
+        color: #FFF;
+        font-size: 100px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+
+
+
+    div{
+        width: 704px;
+        height: 241px;
+        gap: 48px;
+        top: 3446px;
+        left: 628px;
+    }
+
+
+aside {
+    width: 704px;
+    height: 90px;
+}
+
+
+    h3{
+        font-weight: 500;
+        color: #FFF;
+        font-size: 32px;
+        line-height: 44.8px;
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+
+
+
+    a{
+        color: #D3E97A;
+        text-decoration: underline;
+        
+    }
+}
+
+
+
+
+

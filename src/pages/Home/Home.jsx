@@ -29,7 +29,60 @@ const Home = () => {
 
 				<img src={heroImg} alt="" />
 			</section>
-		</div>
+
+
+
+      <section className="about">
+        <div>
+          <h1>About Me</h1>
+          </div>
+
+
+          
+<div>
+          
+          
+          <aside>
+              <h3>
+              I am a front-end developer based in Nigeria. Has Mechanical Engineering background. 
+              </h3>
+              </aside>
+              
+              <p>
+            I am a  front-end developer based in Nigeria. I am
+            passionate about building accessible and user-friendly websites. I
+            am always eager to learn new things and improve on my skills. I am
+            currently learning React and I am open to new opportunities.
+          </p>
+
+          <a href="x.com/Eruditea_anu" >MORE ABOUT ME</a>
+         
+
+          </div>
+
+          
+      </section>
+
+       
+
+
+
+
+
+
+     <section className="lets connect">
+      <div>
+        
+
+        <h1>LET'S CONNECT</h1>
+
+                 </div>
+     
+
+               </section>
+     </div>
+
+
 	);
 };
 
