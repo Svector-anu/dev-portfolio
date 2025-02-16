@@ -16,7 +16,7 @@ const Home = () => {
             <Navbar />
             <section className="hero">
                 <div>
-                    <h1>Hi, I'm SVECTOR</h1>
+                    <h1 className="name">Hi, I'm SVECTOR</h1>
                     <p>
                         A Nigeria based front-end developer passionate about
                         building accessible and user friendly websites.
@@ -35,10 +35,49 @@ const Home = () => {
             </section>
 
             <SizedBox height="200px" />
+             
+           <hr />
 
+<section className="Featured">
+                <div>
+                    <h1 className="name">Featured Projects</h1>
+                </div>
+
+                <div>
+                    <div className="project">
+                        <img src={heroImg} alt="" />
+                        <h3>Project Name</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quo, molestias.
+                        </p>
+                    </div>
+
+                    <div className="project">
+                        <img src={heroImg} alt="" />
+                        <h3>Project Name</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quo, molestias.
+                        </p>
+                    </div>
+
+                    <div className="project">
+                        <img src={heroImg} alt="" />
+                        <h3>Project Name</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quo, molestias.
+                        </p>
+                    </div>
+                </div>
+</section>
+
+
+    {/* this is my about frame */}
             <section className="about">
                 <div>
-                    <h1>About Me</h1>
+                    <h1 className="name"> About Me</h1>
                 </div>
 
                 <div>
@@ -55,58 +94,72 @@ const Home = () => {
                         currently learning React and I am open to new opportunities.
                     </p>
 
-                    <a href="x.com/Eruditea_anu">MORE ABOUT ME</a>
+                    <a className='more' href="x.com/Eruditea_anu">MORE ABOUT ME</a>
                 </div>
             </section>
 
             <SizedBox height="200px" />
 
-            <section className="lets-connect">
-
-              <aside>
-                <h1 style={{ whiteSpace: "nowrap" }}>LET'S CONNECT</h1>
-                </aside>z
-
-
-
-
-
-
+            <section className="letsconnect">
                 <div>
+                    <h1 className="name">Let's Connect</h1>
+
+
+                    <p> Say hello  <span> @svector.anu@gmail.com</span></p>
+                    
+
                     <p>
-                        Say hello{" "}
-                        <a 
-                            href="mailto:svector.anu@gmail.com" 
-                            style={{ textDecoration: 'underline', color: 'chartreuse' }}
-                        >
-                            @svector.anu@gmail.com
-                        </a>
-                        <br />
-                        For more info here is my{" "}
-                        <a 
-                            href="resume" 
-                            style={{ textDecoration: 'underline', color: 'chartreuse' }}
-                        >
-                            resume
-                        </a>
+                        For more info, here is my <span>resume</span>{" "}  
                     </p>
+                    
+
+                     <aside>
+                     <div className="icons">
+                       
+                     <FaLinkedinIn />
+
+                     </div>                         
+                     <div className="icons">
+                       
+                     <FaGithub />
+
+                     </div>
+                     <div className="icons">
+                       
+                     <FaXTwitter />
+
+                     </div>
+                     <div className="icons">
+                       
+                     <FaInstagram />
+
+                     </div>
+
+                        </aside>
+
                 </div>
 
-                <aside>
-                    <div className="icons">
-                        <FaLinkedinIn />
-                    </div>
-                    <div className="icons">
-                        <FaGithub />
-                    </div>
-                    <div className="icons">
-                        <FaXTwitter />
-                    </div>
-                    <div className="icons">
-                        <FaInstagram />
-                    </div>
-                </aside>
+                <div className="form">
+                   <p>Name</p>
+                    <input type="text" placeholder="Anuoluwa"   />
+                   <p>Email</p>
+                    <input type="email" placeholder="anuoluwa@gmail.com" />
+                   <p>Subject</p>
+                    <input type="text" />
+                   <p>Message</p>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    
+
+
+                    <br />  
+
+                  <p> I agree to the terms and conditions</p>
+                    <button>SUBMIT</button>
+                
+                </div>
             </section>
+
+               
         </div>
     );
 };

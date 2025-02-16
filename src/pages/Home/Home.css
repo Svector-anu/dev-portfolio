@@ -1,15 +1,29 @@
 .home {
     background-color: #0a0a0a;
 
+    .hero{
+        align-items: center;
+    }
+
+
+.name{
+    font-family: var(--font-bebas);
+}
+
+
     section {
         width: 100%;
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         gap: 80px;
         padding: 40px 100px;
 
         div {
             max-width: 50%;
+
+
+
+           
 
             h1 {
                 color: #FFF;
@@ -76,6 +90,12 @@
             width: 45%;
             height: 500px;
             object-fit: contain;
+            border-radius: 50%;
+            
+        
+                width: 50%;
+                height: 50%;
+                object-fit: cover;
         }
     }
 
@@ -83,11 +103,9 @@
 
 .about{
     background-color: #0a0a0a;
-
-    background-color: ;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 80px;
     padding: 40px 100px;
 
@@ -103,7 +121,7 @@
 
     div{
         width: 704px;
-        height: 241px;
+        
         gap: 48px;
         top: 3446px;
         left: 628px;
@@ -121,18 +139,76 @@ aside {
         color: #FFF;
         font-size: 32px;
         line-height: 44.8px;
-        text-transform: uppercase;
+        /* text-transform: ; */
         letter-spacing: 0;
     }
 
 
 
-    a{
+    .more{
         color: #D3E97A;
-        text-decoration: un;
+        
+        border-bottom: 1px solid #D3E97A;
     }
 }
+section.about{
+    
 
+}
+
+.letsconnect{
+    h3{
+color: #FFF;
+
+border-bottom: 1px solid #D3E97A;
+
+
+
+
+}
+    }
+
+
+.form{
+    
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+
+    input{
+        background-color: #222222;
+        border: none;
+        padding: 15px 20px;
+        color: #FFF;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    textarea{
+        background-color: #222222;
+        border: none;
+        padding: 15px 20px;
+        color: #FFF;
+        font-size: 16px;
+        resize: none;
+        width: 100%;
+    }
+
+    button{
+        background-color: #D3E97A;
+        border: none;
+        padding: 15px 20px;
+        color: #0a0a0a;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    button:hover{
+        background-color: #0a0a0a;
+        color: #D3E97A;
+    }
+}
 
 
 
