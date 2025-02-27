@@ -1,6 +1,7 @@
-// import React from "react";
+import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { TbMenu } from "react-icons/tb";
 
 const Navbar = () => {
 	return (
@@ -20,6 +21,7 @@ const Navbar = () => {
 					<Link to="/about">Contact</Link>
 				</li>
 			</ul>
+			<TbMenu className="menu-icon" />
 		</nav>
 	);
 };
